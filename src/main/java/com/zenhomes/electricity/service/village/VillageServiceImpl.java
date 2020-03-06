@@ -68,9 +68,9 @@ public class VillageServiceImpl implements VillageService
 
 
     /**
-     * method to fetch the VillageDetails from the given URL.
-     * @param counterId
-     * @return
+     * method to fetch the details of village from the given URL.
+     * @param counterId counterid
+     * @return CounterDetailsResponse
      */
     @Override
     public CounterDetailsResponse getVillageDetails(String counterId)
