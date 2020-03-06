@@ -4,7 +4,6 @@ FROM openjdk:8-jre-alpine
 EXPOSE 9058
 
 # Create underprivileged user for running app
-# DEBIAN/UBUNTU: RUN useradd -m --home-dir /app app
 RUN adduser -D -h /app app
 # Create the application workdir
 WORKDIR /app
